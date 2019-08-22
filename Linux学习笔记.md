@@ -14,7 +14,7 @@
 
 #### CPU和MMU
 
-![Screenshot_20190820_090434_tv.danmaku.bili](tree\master\pictures\Screenshot_20190820_090434_tv.danmaku.bili.jpg)
+![Screenshot_20190820_090434_tv.danmaku.bili](tree/master/pictures/Screenshot_20190820_090434_tv.danmaku.bili.jpg)
 
 进到CPU的是程序的其中的一小部分，也就是一条指令所对应的二进制流
 
