@@ -277,7 +277,7 @@ public void swap(int[] arr, int i, int j){
 
 # Http
 
-![1565683695719](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1565683695719.png)
+![1565683695719](pictures/1565683695719.png)
 
 ```
 HTTP作为无状态协议，必然需要在某种方式保持连接状态。这里简要介绍一下Cookie和Session。
