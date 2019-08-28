@@ -83,7 +83,24 @@ public void houXv(TreeNode treeNode){
 
 ```java
 //层序
-
+public void cengXv(TreeNode treeNode){
+    if(treeNode==null){
+        return;
+    }
+    LinkendList<TreeNode> queue=new LinkedList<TreeNode>();
+    TreeNode current=null;
+    queue.offer(treeNode);
+    while(!queue.isEmpty()){
+        current=queue.poll();
+        cenxvList.add(current.val);
+        if(current.left!=null){
+            queue.offer(current.left);
+        }
+        if(current.right!=null){
+            queue.offer(current.right);
+        }
+    }
+}
 ```
 
 如果非要让用堆栈实现除层序遍历，可以用两个堆栈构建成队列。这时一共有二种情况：
